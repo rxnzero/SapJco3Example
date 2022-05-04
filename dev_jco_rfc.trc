@@ -1,0 +1,202 @@
+
+**** Error file opened at 20220330 100802 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:08:02,901<    RfcException:
+    message: Parameter ABAP system number ('sysnr') needs to be a two digit number string instead of 'TEST'
+    return code: RFC_INVALID_PARAMETER (19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkSystemNumber(RfcOptions.java:453)
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:277)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1378)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1408)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:723)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:115)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:349)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:323)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:893)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:601)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:34)
+	at com.sap.StepByStepClient.step1Connect(StepByStepClient.java:83)
+	at com.sap.StepByStepClient.main(StepByStepClient.java:336)
+
+
+**** Error file opened at 20220330 101107 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:11:07,367<    RfcException:
+    message: Parameter ABAP system number ('sysnr') needs to be a two digit number string instead of 'TEST'
+    return code: RFC_INVALID_PARAMETER (19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkSystemNumber(RfcOptions.java:453)
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:277)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1378)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1408)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:723)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:115)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:349)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:323)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:893)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:601)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:34)
+	at com.sap.StepByStepClient.step1Connect(StepByStepClient.java:83)
+	at com.sap.StepByStepClient.main(StepByStepClient.java:336)
+
+
+**** Error file opened at 20220330 101249 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:12:49,135<    RfcException:
+    message: Parameter ABAP system number ('sysnr') needs to be a two digit number string instead of 'TEST'
+    return code: RFC_INVALID_PARAMETER (19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkSystemNumber(RfcOptions.java:453)
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:277)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1378)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1408)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:723)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:115)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:349)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:323)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:893)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:601)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:34)
+	at StepByStepClient.step1Connect(StepByStepClient.java:34)
+	at StepByStepClient.main(StepByStepClient.java:302)
+
+
+**** Error file opened at 20220330 101425 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:14:25,123<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS ASHOST=appserver SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'appserver' unknown
+TIME        Wed Mar 30 10:14:25 2022
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'appserver' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20220330 102013 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:20:13,167<    RfcException:
+    message: Parameter ABAP system number ('sysnr') needs to be a two digit number string instead of 'TEST'
+    return code: RFC_INVALID_PARAMETER (19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkSystemNumber(RfcOptions.java:453)
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:277)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1378)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1408)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:723)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:115)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:349)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:323)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:893)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:601)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:34)
+	at StepByStepClient.step1Connect(StepByStepClient.java:37)
+	at StepByStepClient.main(StepByStepClient.java:329)
+
+
+**** Error file opened at 20220330 102515 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:25:15,885<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS_WITHOUT_POOL ASHOST=appserver SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'appserver' unknown
+TIME        Wed Mar 30 10:25:15 2022
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'appserver' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20220330 102631 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Wed Mar 30 10:26:31,520<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS_WITHOUT_POOL ASHOST=localhost SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '127.0.0.1:3300' not reached
+TIME        Wed Mar 30 10:26:31 2022
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 127.0.0.1:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20220331 113105 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Thu Mar 31 11:31:05,638<    RfcException:
+    message: Parameter ABAP system number ('sysnr') needs to be a two digit number string instead of 'TEST'
+    return code: RFC_INVALID_PARAMETER (19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkSystemNumber(RfcOptions.java:453)
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:277)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1378)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1408)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:723)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:115)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:349)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:323)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:893)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:601)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:34)
+	at com.sap.StepByStepClient.step1Connect(StepByStepClient.java:83)
+	at com.sap.StepByStepClient.main(StepByStepClient.java:336)
+
+
+**** Error file opened at 20220331 113519 Korean Standard Time Rel. 3.0.13 (2015-04-27) [721.510]
+Error:  >Thu Mar 31 11:35:19,514<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS_WITHOUT_POOL ASHOST=localhost SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '127.0.0.1:3300' not reached
+TIME        Thu Mar 31 11:35:19 2022
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 127.0.0.1:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
